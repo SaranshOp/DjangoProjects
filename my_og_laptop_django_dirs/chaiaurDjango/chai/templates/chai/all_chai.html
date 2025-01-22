@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All_Chai</title>
+</head>
+<body>
+    <h1>
+        All Chai
+    </h1>
+
+    <ul>
+        <li>loop through all the chai</li>
+        {% for chai in all_chai %}
+            <li>
+                {{ chai.name }} - {{ chai.price }}
+            </li>
+        {% endfor %}
+
+</body>
+</html>
