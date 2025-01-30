@@ -2,18 +2,18 @@
 
 {% block title %}all chai page{% endblock title %} 
 {% block content %} 
-content of chai detial page
+content of chai detail page
 
 <h3>
     {{ chai.name }}
 
 </h3>
-<img src="{{ chai.image.url }}" alt="{{ chai.name }}" class="card-img-top"> <br>
+
+<img src="{{ chai.images.url }}" alt="{{ chai.name }}" class="card-img-top"> <br>
+
 <p>
     {{ chai.description }}
 </p>
-
-<img src="{{ chai.image.url }}" alt="{{ chai.name }}" class="card-img-top"> <br>
 
 <button>
     <a href="{% url 'all_chai' %}">Back</a>
