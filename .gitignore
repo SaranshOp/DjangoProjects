@@ -3,6 +3,10 @@ venv/
 .venv/
 env/
 *venv/
+# *venv - ignore all folders ending with venv, .venv - ignore all folders starting with .venv
+.new_env/
+new_env
+*new_env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
