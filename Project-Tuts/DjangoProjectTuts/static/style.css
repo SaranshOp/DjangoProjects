@@ -1,0 +1,64 @@
+nav {
+  background-color: #201717;
+  color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+a {
+  color: #d62222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9a7eff;
+}
+
+button {
+  background-color: #d4b5f9;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+button:text {
+  color: #000000;
+}
+
+input,
+textarea {
+  background-color: #000000;
+  color: #e0e0e0;
+  border: 1px solid #444444;
+  padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #888888;
+}
+
+.card-img-top {
+  width: auto;
+  height: 15vw;
+  border-radius: 20%;
+}
